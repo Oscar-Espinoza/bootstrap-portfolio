@@ -2,3 +2,7 @@
   min-height: 100vh;
   background: #1c1a19;
 }
+
+.media-icons img {
+  width: 18px;
+}

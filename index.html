@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
-  <div class="container-fluid position-relative headline">
+  <div class="navbar bg-dark">
+    <div class="navbar container bg-dark">
+      <a class="navbar-brand text-white" href="#">Logo</a>
+      <ul class="d-flex flex-lg-row text-white navbar-nav">
+        <li class="nav-item me-4">
+          <a class="nav-link text-white" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item me-4">
+          <a class="nav-link text-white" href="#">About</a>
+        </li>
+        <li class="nav-item me-4">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+        <li class="nav-item me-4">
+          <a class="nav-link text-white" href="#"><img src="/Media/Icon-Mail.svg" alt="icon-email"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid position-relative headline d-flex flex-row-reverse align-items-center">
     <img src="/Media/IMG-headline.svg" alt="headline-bg-image" class="position-absolute top-0 end-0 h-100">
-    <div class="d-inline-flex flex-row-reverse gap-1">
-      <div class="card bg-transparent text-white">
-        <card-body>
-          <h1 class="card-title text-danger">Hey There. I’m Alex</h1>
-          <h2 class="card-subtitle">I’am a Software Developer</h2>
-          <p class="card-text w-25">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hestiate to contact me.</p>
-        </card-body>
-      </div>
-      <div class="d-flex flex-column media-icons">
-        <img src="/Media/Icon -GitHub.svg" alt="">
-        <img src="/Media/Icon-Linkedin.svg" alt="">
-        <img src="/Media/Icon-peace.svg" alt="">
-        <img src="/Media/Icon-Twitter.svg" alt="">
-        <img src="/Media/Icon-M-dark.svg" alt="">
-      </div>
+    <div class="card bg-transparent text-white">
+      <card-body>
+        <h1 class="card-title text-danger">Hey There. I’m Alex</h1>
+        <h2 class="card-subtitle">I’am a Software Developer</h2>
+        <p class="card-text w-25">I can help you build a product , feature or website Look through some of my work and
+          experience! If you like what you see and have a project you need coded,
+          don’t hestiate to contact me.</p>
+      </card-body>
+    </div>
+    <div class="d-flex flex-column media-icons">
+      <img class="mb-3" src="/Media/Icon -GitHub.svg" alt="">
+      <img class="mb-3" src="/Media/Icon-Linkedin.svg" alt="">
+      <img class="mb-3" src="/Media/Icon-peace.svg" alt="">
+      <img class="mb-3" src="/Media/Icon-Twitter.svg" alt="">
+      <img class="mb-3" src="/Media/Icon-M.svg" alt="">
     </div>
   </div>
 </body>
+
 </html>
