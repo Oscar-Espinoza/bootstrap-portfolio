@@ -16,7 +16,7 @@
   <div class="navbar bg-dark">
     <div class="navbar container bg-dark">
       <a class="navbar-brand text-white" href="#">Logo</a>
-      <ul class="d-flex flex-lg-row text-white navbar-nav">
+      <ul class="d-none d-lg-flex flex-lg-row text-white navbar-nav">
         <li class="nav-item me-4">
           <a class="nav-link text-white" href="#">Portfolio</a>
         </li>
@@ -33,27 +33,28 @@
     </div>
   </div>
 
-  <div class="container-fluid position-relative min-vh-100 d-flex flex-row-reverse align-items-center headline dark-bg">
-    <img src="/Media/IMG-headline.svg" alt="headline-bg-image" class="position-absolute top-0 end-0 h-100">
-    <div class="card bg-transparent text-white">
+  <div class="container-fluid position-relative min-vh-100 d-flex flex-column flex-lg-row-reverse align-items-center justify-content-center align-items-center headline dark-bg">
+    <img src="/Media/IMG-headline.svg" alt="headline-bg-image" class="position-absolute d-none d-lg-block top-0 end-0 h-100 d-lg-b">
+    <img src="/Media/image.svg" alt="headline-sm-img" class="position-absolute end-0 bottom-0 d-lg-none">
+    <div class="card bg-transparent text-white border-0">
       <card-body>
         <h1 class="card-title text-danger">Hey There. I’m Alex</h1>
         <h2 class="card-subtitle">I’am a Software Developer</h2>
-        <p class="card-text w-25">I can help you build a product , feature or website Look through some of my work and
+        <p class="card-text w-lg-25">I can help you build a product , feature or website Look through some of my work and
           experience! If you like what you see and have a project you need coded,
           don’t hestiate to contact me.</p>
       </card-body>
     </div>
-    <div class="d-flex flex-column media-icons p-5">
-      <img class="mb-3" src="/Media/Icon -GitHub.svg" alt="">
-      <img class="mb-3" src="/Media/Icon-Linkedin.svg" alt="">
-      <img class="mb-3" src="/Media/Icon-peace.svg" alt="">
-      <img class="mb-3" src="/Media/Icon-Twitter.svg" alt="">
-      <img class="mb-3" src="/Media/Icon-M.svg" alt="">
+    <div class="d-flex flex-lg-column media-icons p-lg-5 align-self-baseline align-self-lg-center justify-content-between">
+      <img class="mb-3 me-3 me-lg-0" src="/Media/Icon -GitHub.svg" alt="">
+      <img class="mb-3 me-3 me-lg-0" src="/Media/Icon-Linkedin.svg" alt="">
+      <img class="mb-3 me-3 me-lg-0" src="/Media/Icon-peace.svg" alt="">
+      <img class="mb-3 me-3 me-lg-0" src="/Media/Icon-Twitter.svg" alt="">
+      <img class="mb-3 me-3 me-lg-0" src="/Media/Icon-M.svg" alt="">
     </div>
   </div>
 
-  <div class="container min-vh-100 mt-5">
+  <div class="container min-vh-100 mt-5 mb-5 pb-5">
     <div class="row">
       <div class="d-flex justify-content-center align-items-center title pt-5">
         <h2 class="">My Recent Works</h2>
@@ -61,8 +62,8 @@
       </div>
     </div>
     <div class="row first-project">
-      <img src="/Media/First-project.png" alt="" class="col-7">
-      <div class="project-content col-5">
+      <img src="/Media/First-project.png" alt="" class="col-12 col-lg-7">
+      <div class="project-content col-12 col-lg-5">
         <h3 class="project-title">Multi-Post Stories</h3>
         <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups
           required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -77,13 +78,13 @@
       </div>
     </div>
     <div class="row other-projects d-flex justify-content-between mt-4 text-white">
-      <div class="col-4 card secondary-project border-0">
+      <div class="col-12 col-lg-4 card secondary-project border-0">
         <img src="/Media/IMG-first.svg" alt="">
         <div id="button" class="card-img-overlay d-flex flex-column justify-content-end d-grid pb-0">
           <button type="button" class="btn btn-primary btn-lg">See project</button>
         </div>
       </div>
-      <div class="col-4 card secondary-project text-white border-0">
+      <div class="col-12 col-lg-4 card secondary-project text-white border-0">
         <img src="/Media/IMG-second.svg" alt="">
         <div class="card-img-overlay d-flex flex-column justify-content-end pe-5 ps-5">
           <h4 class="card-title">Data Dashboard Healthcare</h4>
@@ -96,7 +97,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-4 card secondary-project border-0">
+      <div class="col-12 col-lg-4 card secondary-project border-0">
         <img src="/Media/IMG-third.svg" alt="">
         <div class="card-img-overlay d-flex flex-column justify-content-end pe-5 ps-5">
           <h4 class="card-title">Website Protfolio</h4>
@@ -109,7 +110,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-4 card secondary-project border-0 mt-4">
+      <div class="col-12 col-lg-4 card secondary-project border-0 mt-4">
         <img src="/Media/background-project.png" alt="">
         <div class="card-img-overlay d-flex flex-column justify-content-end pe-5 ps-5">
           <h4 class="card-title">Profesional Art Printing Data More</h4>
@@ -122,7 +123,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-4 card secondary-project border-0 mt-4">
+      <div class="col-12 col-lg-4 card secondary-project border-0 mt-4">
         <img src="/Media/IMG-second.svg" alt="">
         <div class="card-img-overlay d-flex flex-column justify-content-end pe-5 ps-5">
           <h4 class="card-title">Data Dashboard Healthcare</h4>
@@ -135,7 +136,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-4 card secondary-project border-0 mt-4">
+      <div class="col-12 col-lg-4 card secondary-project border-0 mt-4">
         <img src="/Media/IMG-third.svg" alt="">
         <div class="card-img-overlay d-flex flex-column justify-content-end pe-5 ps-5">
           <h4 class="card-title">Website Protfolio</h4>
@@ -151,24 +152,24 @@
     </div>
   </div>
 
-  <div
-    class="container-fluid d-flex flex-column justify-content-around align-items-center position-relative min-vh-100 dark-bg">
-    <img src="/Media/About-me-big-image.svg" alt="About-me-big-image" class="position-absolute top-0 end-0">
+  <div class="container-fluid d-flex flex-column justify-content-around align-items-center position-relative min-vh-100 dark-bg pt-5 pb-5 mb-5">
+    <img src="/Media/About-me-big-image.svg" alt="About-me-big-image" class="d-none d-lg-block position-absolute end-0 about-me-img">
+    <img src="/Media/about-me-image.svg" alt="about-me-sm-img" class="position-absolute end-0 about-me-sm-img d-lg-none">
     <div class="row w-75">
       <h2 class="text-danger">About me</h2>
-      <p class="text-white w-50">Hello I’m a software developer! I can help you build a product , feature or website
+      <p class="text-white col-lg-6">Hello I’m a software develop1er! I can help you build a product , feature or website
         Look
         through some of my work and experience! If you like what you see and have a project you need coded, don’t
         hestiate to contact me.</p>
       <div class="button">
-        <button type="button" class="btn btn-primary d-inline-block w-25">Get My Resume</button>
+        <button type="button" class="btn btn-primary d-inline-block w-lg-25">Get My Resume</button>
       </div>
     </div>
     <div class="row w-75">
-      <hr class="text-white">
+      <hr class="text-white about-me-line">
     </div>
     <div class="row text-white w-75">
-      <ul class="list-inline d-flex justify-content-between">
+      <ul class="list-inline d-flex flex-column flex-lg-row justify-content-between align-items-center text-center">
         <li class="list-inline-item">
           <img src="/Media/Rectangle-orange.svg" alt="">
           <h3 class="d-inline">Languages</h3>
@@ -228,6 +229,7 @@
             <label for="message"></label>
             <textarea name="user_message" id="message" class="w-100 border-0"></textarea>
           </div>
+          <button class="btn btn-primary">Get in touch</button>
         </form>
       </div>
     </div>

@@ -37,3 +37,26 @@
 .media-icons2 img {
   width: 60px;
 }
+
+.about-me-img {
+  width: 430px;
+  top: 45px;
+}
+
+.about-me-sm-img {
+  top: 225px;
+}
+
+.about-me-line {
+  margin-top: 208px;
+}
+
+.list-inline {
+  line-height: 45px;
+}
+
+@media (min-width: 992px) {
+  .about-me-line {
+    margin-top: 75px;
+  }
+}
