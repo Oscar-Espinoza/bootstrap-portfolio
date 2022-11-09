@@ -55,6 +55,10 @@
   line-height: 45px;
 }
 
+.hamburguer-icon {
+  width: 28px;
+}
+
 @media (min-width: 992px) {
   .about-me-line {
     margin-top: 75px;
@@ -62,5 +66,9 @@
 
   .form-lg {
     min-height: 100vh;
+  }
+
+  .hamburguer-icon {
+    display: none;
   }
 }
