@@ -59,4 +59,8 @@
   .about-me-line {
     margin-top: 75px;
   }
+
+  .form-lg {
+    min-height: 100vh;
+  }
 }
