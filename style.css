@@ -1,4 +1,66 @@
-.headline {
-  min-height: 100vh;
+.dark-bg {
   background: #1c1a19;
+}
+
+.media-icons img {
+  width: 18px;
+}
+
+#button {
+  padding: 0.78rem;
+}
+
+#button button {
+  border-radius: 0;
+}
+
+.list-group-item {
+  background: rgba(255, 255, 255, 0.24);
+  color: white;
+}
+
+.btn-primary {
+  background: #f55800;
+  border: none;
+}
+
+.border-input {
+  border: none;
+  border-bottom: solid 1px grey;
+}
+
+#message {
+  background: #fbf8f7;
+  height: 114px;
+}
+
+.media-icons2 img {
+  width: 60px;
+}
+
+.about-me-img {
+  width: 430px;
+  top: 45px;
+}
+
+.about-me-sm-img {
+  top: 225px;
+}
+
+.about-me-line {
+  margin-top: 208px;
+}
+
+.list-inline {
+  line-height: 45px;
+}
+
+@media (min-width: 992px) {
+  .about-me-line {
+    margin-top: 75px;
+  }
+
+  .form-lg {
+    min-height: 100vh;
+  }
 }
