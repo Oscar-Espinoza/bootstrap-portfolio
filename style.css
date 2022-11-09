@@ -23,3 +23,17 @@
   background: #f55800;
   border: none;
 }
+
+.border-input {
+  border: none;
+  border-bottom: solid 1px grey;
+}
+
+#message {
+  background: #fbf8f7;
+  height: 114px;
+}
+
+.media-icons2 img {
+  width: 60px;
+}
